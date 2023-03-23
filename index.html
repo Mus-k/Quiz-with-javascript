@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    
+    <title>mini quiz with js</title>
+</head>
+<body>
+
+    <div class="main-container">
+            <header class="text-primary"> <span class="welcome">Welcome</span>
+                <p>to</p>
+                8 parts of speech quiz.
+            </header>
+            <div class="result d-none">
+                <div class="score">
+                     <p>Your score is.
+                       <span class="text-primary">0%</span>
+                     </p>
+                </div>
+            </div>
+        
+            <div class="show hide">
+                 <span><a href='index.html' class="try">try again</a></span>
+                 <p class="answer">show answers </p> 
+            </div>
+
+            <div class="correctA list">
+                    <p>1. adjective  2.pronoun 3.preposition  4.adverb 5.verb <br>
+                    6.noun 7.verb 8.interjection 9.conjunction 10.preposition</p>
+            </div>
+        
+        <div class=" container-form  bg-primary">
+        <form class=" quiz-form ">
+            <div class="form-container">
+                <section class="section1">
+                    <h5> 1. I bought a
+                        <em>beautiful</em> dress at the mall.</h5>
+                    <input class="my-2" type="radio" name="q1" value="A"  required> 
+                    <label class='text-white-50'>preposition
+                    </label>
+                    <input class="my-2" type="radio" name="q1" value="B">
+                    <label class='text-white-50'>
+                    adjective
+                    </label>
+                    <input class="my-2" type="radio" name="q1" value="C">
+                    <label  class='text-white-50'>
+                    noun</label><br>
+        
+                    <h5>2. What did <em>she</em> ask you to do?</h5>
+                    <input class="my-2" type="radio" name="q2" value="A">
+                    <label  class='text-white-50'>pronoun
+                    </label>
+                    <input class="my-2" type="radio" name="q2" value="B">
+                    <label  class='text-white-50'>
+                    conjunction
+                    </label>
+                    <input class="my-2" type="radio" name="q2" value="C">
+                    <label  class='text-white-50'>
+                    preposition</label><br>
+        
+                    <h5> 3. I left my shoes <em>under</em> the kitchen table.</h5>
+                    <input class="my-2" type="radio" name="q3" value="A">
+                    <label  class='text-white-50'>pronoun
+                    </label>
+                    <input class="my-2" type="radio" name="q3" value="B">
+                    <label  class='text-white-50'>
+                    adjective
+                    </label>
+                    <input class="my-2" type="radio" name="q3" value="C">
+                    <label  class='text-white-50'>
+                    preposition</label><br>
+                    <h5>4. If we finish our work <em>quickly </em>we can go to the movies.</h5>
+                        
+                    <input class="my-2" type="radio" name="q4" value="A">
+                    <label  class='text-white-50'>adverb
+                    </label>
+                    <input class="my-2" type="radio" name="q4" value="B">
+                    <label  class='text-white-50'>
+                    conjunction
+                    </label>
+                    <input class="my-2" type="radio" name="q4" value="C">
+                    <label  class='text-white-50'>
+                    verb</label><br>
+                
+                    <h5>5. On Saturdays I <em> work</em> from nine to five.</h5>
+                    <input class="my-2" type="radio" name="q5" value="A">
+                    <label  class='text-white-50'>verb
+                    </label>
+                    <input class="my-2" type="radio" name="q5" value="B">
+                    <label  class='text-white-50'>
+                preposition
+                    </label>
+                    <input class="my-2" type="radio" name="q5" value="C">
+                    <label  class='text-white-50'>
+                    adverb</label><br>
+                </section>
+                <section class="section2">
+                    <h5>6. I want to go to a <em>university</em> in the United States.</h5>
+                    <input class="my-2" type="radio" name="q6" value="A">
+                    <label  class='text-white-50'>adjective
+                    </label>
+                    <input class="my-2" type="radio" name="q6" value="B">
+                    <label  class='text-white-50'>
+                    preposition
+                    </label>
+                    <input class="my-2" type="radio" name="q6" value="C">
+                    <label  class='text-white-50'>
+                    noun</label><br>
+                    <h5>7. I'm sure I've <em>met</em> your girlfriend before.</h5>
+                    <input class="my-2" type="radio" name="q7" value="A">
+                    <label  class='text-white-50'>verb
+                    </label>
+                    <input class="my-2" type="radio" name="q7" value="B">
+                    <label  class='text-white-50'>
+                    interjection
+                    </label>
+                    <input class="my-2" type="radio" name="q7" value="C">
+                    <label  class='text-white-50'>
+                    preposition</label><br>
+                    <h5> 8. <em>Well,</em> I don't think I'll be home before 6.</h5>
+                    <input class="my-2" type="radio" name="q8" value="A">
+                    <label  class='text-white-50'>pronoun
+                    </label>
+                    <input  class="my-2" type="radio" name="q8" value="B">
+                    <label  class='text-white-50'>
+                    interjection
+                    </label>
+                    <input class="my-2"  type="radio" name="q8" value="C">
+                    <label  class='text-white-50'>
+                    preposition</label><br>
+        
+                    <h5> 9. Andy knocked on the door <em>but</em> nobody answered. </h5>
+                    <input class="my-2" type="radio" name="q9" value="A">
+                    <label  class='text-white-50'>adverb
+                        </label>
+                    <input class="my-2" type="radio" name="q9" value="B">
+                    <label  class='text-white-50'>
+                        adjective
+                        </label>
+                    <input class="my-2" type="radio" name="q9" value="C">
+                    <label  class='text-white-50'>
+                        conjunction</label><br>
+                    <h5>10. <em>After</em> lunch let's go out for a coffee.</h5>
+                    <input class="my-2" type="radio" name="q10" value="A">
+                    <label  class='text-white-50'>pronoun
+                            </label>
+                    <input class="my-2" type="radio" name="q10" value="B">
+                    <label  class='text-white-50'>
+                            verb
+                            </label>
+                    <input class="my-2" type="radio" name="q10" value="C">
+                    <label  class='text-white-50'>
+                            preposition</label><br></br>
+             </section>
+         </div>
+                 <div class="button">
+                    <input class="my-2" type="submit" class="submit" value="Submit">
+                </div>
+                        
+           
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="index.js"></script>
+</html>

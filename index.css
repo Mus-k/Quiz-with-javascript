@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+}
+.welcome{
+    font-size: 30px;
+}
+/* score display css */
+
+.score{
+    background-color: rgb(113, 224, 172);
+    font-size: 20px;
+    padding: 4px 2px 2px 2px;
+    margin: 4px;
+    
+}
+span{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 4px;
+}
+
+.show{
+font-size: 15px;
+padding: 5px;
+
+}
+/* try again css */
+.try{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: cadetblue;
+    color: #fff;
+}
+.try:hover{
+    color: aquamarine;
+    background-color: white;
+}
+
+/* correct answer and try again */
+.hide{
+    display: none;
+}
+/* toggle part */
+.list{
+    display: none;
+   
+}
+/* list of the correct answers */
+.correctA{
+    background-color: antiquewhite;
+}
+.answer:hover{
+    color: yellow;
+    background-color: black;
+}
+
+.container-form{
+    width: 100%;
+    padding: 50px;
+    margin-top: 10px;  
+}
+/* form begins */
+.quiz-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+em{
+    color: rgb(248, 149, 122);
+}
+
+
+
+label{
+    font-size: 20px;
+}
+h5{
+    color: #fff;
+}
+
+
+input[type='submit']{
+    border: 1px solid rgb(43, 104, 219);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+input[type='submit']:hover{
+   background-color: blueviolet;
+    transition: all 1s ease-in-out;   
+}
+/* media querry */
+@media screen and (min-width:968px){
+  .section2{
+       
+        margin-right: 30px;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .section2{
+    
+        margin-right: 30px;
+    }
+    
+}
+
+
